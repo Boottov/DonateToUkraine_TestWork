@@ -1,0 +1,325 @@
+.inner_header_mobile_button{
+    margin: 8px 0;
+    height: 20px;
+    width: 27px;
+    visibility: hidden;
+    display: none;
+}
+.inner_header_mobile_button div{
+    width: 27px;
+    height: 2px;
+    background-color: #000000;
+}
+.inner_header_mobile_button div:not(:first-child):not(:last-child){
+    margin: 7px 0;
+}
+@media (max-width: 1151px) {
+    .inner_content{
+        padding: 0 15px;
+    }
+    .inner_header_mobile_button{
+        visibility: visible;
+        display: block;
+    }
+    .header_logo{
+        margin-left: 48px;
+    }
+    #header{
+        padding-top: 51px;
+        height: 99px;
+    }
+    #header ul{
+        display: none;
+        visibility: hidden;
+    }
+    .main_info_wrapper .content .content_first{
+        display: none;
+        visibility: hidden;
+    }
+    .main_info_label h1{
+        white-space: nowrap;
+        text-align: center;
+    }
+    .content{
+        display: block;
+    }
+    .content .content_first{
+        max-width: 100%;
+    }
+    .main_info_wrapper{
+        padding-bottom: 69px;
+    }
+    .main_info_wrapper .content .content_last .main_info_inner_info_right{
+        margin: 0;
+    }
+    .main_info_days_of_war{
+        position: relative;
+        height: 80px;
+        top: 0;
+    }
+    .main_info_days_of_war p{
+        line-height: 90%;
+        font-size: 95px;
+        text-shadow: 0 1px 0 #333333,
+        0 -1px 0 #333333,
+        1px 0 0 #333333,
+        -1px 0 0 #333333,
+        1px 1px 0 #333333,
+        1px -1px 0 #333333,
+        -1px 1px 0 #333333,
+        -1px -1px 0 #333333,
+        0 1px 0 #333333,
+        0 -1px 0 #333333,
+        1px 0 0 #333333,
+        -1px 0 0 #333333,
+        1px 1px 0 #333333,
+        1px -1px 0 #333333,
+        -1px 1px 0 #333333,
+        -1px -1px 0 #333333;
+    }
+    .main_info_days_of_war .fs54{
+        position: absolute;
+        width: 52px;
+        height: 35px;
+        font-size: 27px;
+        font-weight: 400;
+    }
+    .main_info_inner_info_label{
+        margin: 0 auto;
+        height: 80px;
+    }
+    .main_info_inner_info_label h3{
+        width: 100%;
+        height: 100%;
+        font-size: min(max(22px, 3vw), 88px);
+    }
+    .main_info_label{
+        padding-bottom: 9px;
+        margin-bottom: 52px;
+    }
+    .main_info_inner_info_label_wrapper{
+        width: 100%;
+    }
+    .main_info_inner_info_label_wrapper button{
+        margin: 0 auto;
+    }
+    .main_info_inner_info_label_wrapper .yantramanavW400{
+        position: relative;
+        margin: 16px 0;
+        font-size: min(max(15px, 1.8vw), 60px);
+        max-width: 700px;
+    }
+    .second_info_wrapper .content .content_first h3{
+        font-size: max(36px, min(6vw, 144px));
+        margin-bottom: 40px;
+    }
+    .second_info_wrapper{
+        padding: 0;
+    }
+    .second_info_time{
+        display: block;
+    }
+    .second_info_time li:not(:last-child):not(:first-child){
+        padding: 11px 0 21px 0;
+    }
+    .second_info_time h2{
+        font-size: max(26px, min(6vw, 104px));
+        font-weight: 400;
+    }
+    .second_info_time li:last-child p{
+        max-width: 100%;
+    }
+    .second_info_time p{
+        font-size: max(15px, min(2.5vw, 60px));
+        line-height: 20px;
+    }
+    .second_info_img_wrapper{
+        margin-top: 46px;
+    }
+    .second_info_img_wrapper .content_last{
+        padding-left: 0px;
+    }
+    .second_info_wrapper .content:last-child .content_last .button{
+        margin: 27px auto 90px auto;
+    }
+    .tertiary_info_label .content_last p{
+        max-width: 100%;
+        font-size: max(36px, min(5vw, 144px));
+        margin-bottom: 25px;
+    }
+    .tertiary_info_more_img{
+        display: none;
+    }
+    .tertiary_info_img_label p:first-child{
+        font-weight: 700;
+        font-size: max(19px, min(4vw, 76px));
+    }
+    .tertiary_info_img_label p:last-child{
+        font-size: max(14px, min(3vw, 56px));
+    }
+    .tertiary_info_img_pagination_wrapper{
+        display: flex;
+        visibility: visible;
+        width: 100%;
+    }
+    .tertiary_info_img_pagination{
+        display: inline-block;
+        margin: 10px auto 54px auto;
+    }
+    .tertiary_info_img_pagination .page{
+        display: inline-block;
+        margin: max(5.5px, min(1vw, 11px));
+        padding: max(5.5px, min(1vw, 11px));
+        background: #EEC36F;
+        border-radius: 50%;
+    }
+    .tertiary_info_img_pagination .active{
+        background: #333333;
+    }
+    .tertiary_info_inner_info div:first-child{
+        width: 100%;
+        padding: 0;
+    }
+    .tertiary_info_inner_info button{
+        display: block;
+        margin: 27px auto 92px auto;
+        position: relative;
+        top: 0;
+    }
+    .tertiary_info_inner_info div:last-child{
+        display: none;
+        visibility: hidden;
+    }
+    .tertiary_info_inner_info div:first-child p{
+        font-size: max(14px, min(2vw, 56px));
+    }
+    .how_can_help_wrapper{
+        padding: 0;
+    }
+    .how_can_help_wrapper .content:first-child .content_last h2{
+        font-size: max(36px, min(7vw, 144px));
+        font-weight: 700;
+    }
+    .how_can_help_info{
+        margin-bottom: 100px;
+    }
+    .how_can_help_info h3{
+        font-size: max(26px, min(3vw, 104px));
+
+    }
+    .how_can_help_info p{
+        padding: 0;
+        font-size: max(14px, min(3vw, 56px));
+    }
+    .how_can_help_wrapper .content:last-child .content_last .button{
+        display: none;
+        visibility: hidden;
+    }
+    .needs_of_refugees_label .content_first h2{
+        font-size: max(56px, min(7vw, 224px));
+    }
+    .needs_of_refugees_label .content_first p{
+        font-size: max(26px, min(3vw, 104px));
+    }
+    .needs_of_refugees_label .content_last h3{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: max(32px, min(3vw, 128px));
+    }
+    .what_value_this_money_label{
+        border: none;
+    }
+    .what_value_this_money_label h2{
+        font-size: max(56px, min(7vw, 224px));
+    }
+    .what_value_this_money_label h3{
+        font-size: max(32px, min(3vw, 128px));
+    }
+    .what_value_this_money_list{
+        display: block;
+    }
+    .what_value_this_money_list p{
+        max-width: 100%;
+        font-size: max(15px, min(3vw, 60px));
+    }
+    .what_value_this_money_list .button{
+        display: block;
+        margin: 21px auto 125px auto;
+    }
+    .today_info_wrapper{
+        margin: 0;
+    }
+    .today_info_wrapper .content .content_last{
+        display: block;
+    }
+    .today_info_wrapper .content .content_last h3{
+        font-size: max(26px, min(4vw, 56px));
+    }
+    .today_info_wrapper .content .content_first p{
+        font-size: max(56px, min(7vw, 224px));
+    }
+    .info_inner_info p:last-child{
+        display: none;
+        visibility: hidden;
+    }
+    .info_inner_info p:first-child{
+        max-width: 100%;
+        font-size: max(14px, min(3vw, 56px));
+    }
+    .today_info_wrapper .content:last-child .content_last p{
+        font-size: max(14px, min(2vw, 56px));
+    }
+    .today_info_wrapper .content:last-child .content_last p:last-child{
+        display: none;
+        margin-bottom: 40px;
+    }
+    .our_goal_wrapper .content:first-child .content_first p{
+        font-size: max(56px, min(7vw, 224px));
+    }
+    .our_goal_wrapper .content:first-child .content_last h3{
+        font-size: max(26px, min(1vw, 104px));
+        margin-bottom: 14px;
+    }
+    .our_goal_wrapper .content:last-child .content_last p{
+        font-size: max(15px, min(2vw, 60px));
+        margin: 14px 0 28px 0;
+    }
+    .our_goal_wrapper .content:last-child .content_last .button{
+        display: block;
+        margin: 0 auto;
+    }
+    .people_routine_wrapper .content .content_last{
+        display: none;
+        visibility: hidden;
+    }
+    .people_routine_wrapper{
+        padding-bottom: 0;
+    }
+    .people_routine_pagination_wrapper{
+        display: block;
+    }
+    .people_routine_pagination_wrapper{
+        display: flex;
+        visibility: visible;
+        width: 100%;
+    }
+    .people_routine_pagination{
+        display: inline-block;
+        margin: 10px auto 54px auto;
+    }
+    .people_routine_pagination .page{
+        display: inline-block;
+        margin: max(5.5px, min(1vw, 11px));
+        padding: max(5.5px, min(1vw, 11px));
+        background: #C4C4C4;
+        border-radius: 50%;
+    }
+    .people_routine_pagination .active{
+        background: #333333;
+    }
+    #footer{
+        display: none;
+        visibility: hidden;
+    }
+}
